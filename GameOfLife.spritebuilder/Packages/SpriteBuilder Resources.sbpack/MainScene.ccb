@@ -342,7 +342,7 @@
 								<array>
 									<dict>
 										<key>UUID</key>
-										<integer>19</integer>
+										<integer>23</integer>
 										<key>baseClass</key>
 										<string>CCLabelTTF</string>
 										<key>children</key>
@@ -352,7 +352,7 @@
 										<key>displayName</key>
 										<string>CCLabelTTF</string>
 										<key>memberVarAssignmentName</key>
-										<string>_populationLabel</string>
+										<string></string>
 										<key>memberVarAssignmentType</key>
 										<integer>1</integer>
 										<key>properties</key>
@@ -372,11 +372,11 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>43.383579254150391</real>
-													<real>71.455307006835938</real>
-													<integer>0</integer>
-													<integer>0</integer>
-													<integer>0</integer>
+													<real>0.5</real>
+													<real>0.75</real>
+													<integer>1</integer>
+													<integer>2</integer>
+													<integer>2</integer>
 												</array>
 											</dict>
 											<dict>
@@ -386,8 +386,8 @@
 												<string>Point</string>
 												<key>value</key>
 												<array>
-													<real>0.5</real>
-													<real>0.5</real>
+													<real>0.49780932068824768</real>
+													<real>-2.7943627834320068</real>
 												</array>
 											</dict>
 											<dict>
@@ -562,7 +562,7 @@
 									</dict>
 									<dict>
 										<key>UUID</key>
-										<integer>21</integer>
+										<integer>19</integer>
 										<key>baseClass</key>
 										<string>CCLabelTTF</string>
 										<key>children</key>
@@ -572,7 +572,7 @@
 										<key>displayName</key>
 										<string>CCLabelTTF</string>
 										<key>memberVarAssignmentName</key>
-										<string></string>
+										<string>_populationLabel</string>
 										<key>memberVarAssignmentType</key>
 										<integer>1</integer>
 										<key>properties</key>
@@ -593,7 +593,7 @@
 												<key>value</key>
 												<array>
 													<real>43.383579254150391</real>
-													<real>25.519752502441406</real>
+													<real>55.455307006835938</real>
 													<integer>0</integer>
 													<integer>0</integer>
 													<integer>0</integer>
@@ -782,7 +782,7 @@
 									</dict>
 									<dict>
 										<key>UUID</key>
-										<integer>22</integer>
+										<integer>21</integer>
 										<key>baseClass</key>
 										<string>CCLabelTTF</string>
 										<key>children</key>
@@ -792,7 +792,7 @@
 										<key>displayName</key>
 										<string>CCLabelTTF</string>
 										<key>memberVarAssignmentName</key>
-										<string>_generationLabel</string>
+										<string></string>
 										<key>memberVarAssignmentType</key>
 										<integer>1</integer>
 										<key>properties</key>
@@ -812,8 +812,8 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>42.107589721679688</real>
-													<real>40.83160400390625</real>
+													<real>43.383579254150391</real>
+													<real>20.519752502441406</real>
 													<integer>0</integer>
 													<integer>0</integer>
 													<integer>0</integer>
@@ -827,7 +827,7 @@
 												<key>value</key>
 												<array>
 													<real>0.5</real>
-													<real>0.5</real>
+													<real>-1.0106027126312256</real>
 												</array>
 											</dict>
 											<dict>
@@ -1002,7 +1002,7 @@
 									</dict>
 									<dict>
 										<key>UUID</key>
-										<integer>23</integer>
+										<integer>22</integer>
 										<key>baseClass</key>
 										<string>CCLabelTTF</string>
 										<key>children</key>
@@ -1012,7 +1012,7 @@
 										<key>displayName</key>
 										<string>CCLabelTTF</string>
 										<key>memberVarAssignmentName</key>
-										<string></string>
+										<string>_generationLabel</string>
 										<key>memberVarAssignmentType</key>
 										<integer>1</integer>
 										<key>properties</key>
@@ -1032,8 +1032,8 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>40.83160400390625</real>
-													<real>56.143451690673828</real>
+													<real>44.107589721679688</real>
+													<real>24.83160400390625</real>
 													<integer>0</integer>
 													<integer>0</integer>
 													<integer>0</integer>
@@ -1647,8 +1647,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -2125,6 +2123,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
